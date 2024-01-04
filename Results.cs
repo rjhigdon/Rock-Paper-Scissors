@@ -14,27 +14,27 @@ namespace RoPaSc
             {
                 Console.WriteLine($"I picked {compChoice}. We Tied");
             }
-            else if (myChoice == "Rock" || myChoice == "rock" && compChoice == "Paper")
+            else if (myChoice == "Rock" && compChoice == "Paper")
             {
                 Console.WriteLine($"I win! I chose {compChoice}");
             }
-            else if (myChoice == "Rock" || myChoice == "rock" && compChoice == "Scissors")
+            else if (myChoice == "Rock" && compChoice == "Scissors")
             {
                 Console.WriteLine($"You win! I chose {compChoice}");
             }
-            else if (myChoice == "Paper" || myChoice == "paper" && compChoice == "Scissors")
+            else if (myChoice == "Paper" && compChoice == "Scissors")
             {
                 Console.WriteLine($"I win! I chose {compChoice}");
             }
-            else if (myChoice == "Paper" || myChoice == "paper" && compChoice == "Rock")
+            else if (myChoice == "Paper" && compChoice == "Rock")
             {
                 Console.WriteLine($"You win! I chose {compChoice}");
             }
-            else if (myChoice == "Scissors" || myChoice == "scissors" && compChoice == "Rock")
+            else if (myChoice == "Scissors" && compChoice == "Rock")
             {
                 Console.WriteLine($"I win! I chose {compChoice}");
             }
-            else if (myChoice == "Scissors" || myChoice == "scissors" && compChoice == "Paper")
+            else if (myChoice == "Scissors" && compChoice == "Paper")
             {
                 Console.WriteLine($"You win! I chose {compChoice}");
             }
